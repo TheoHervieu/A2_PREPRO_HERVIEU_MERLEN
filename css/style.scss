@@ -1,4 +1,7 @@
-
+$beige: #ecf4c2 !important;
+$blanc: #ffffff !important;
+$grisfonce: #272727 !important;
+$noir: #000000;
 
   .navbar {
     margin-bottom: 0;
@@ -20,7 +23,7 @@
 
   footer {
     background-color: #555;
-    color: white;
+    color: $grisfonce;
     padding: 15px;
   }
 
@@ -95,3 +98,8 @@
        que celui entre les étiquettes et les champs textuels */
     margin-left: .5em;
   }
+
+
+.navbar a{
+  color: $beige;
+}
