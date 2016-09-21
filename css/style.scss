@@ -1,9 +1,15 @@
-$beige: #ecf4c2 !important;
+/* COULEURS */
+$beige: #f6f2c2 !important;
 $blanc: #ffffff !important;
 $grisfonce: #272727 !important;
 $noir: #000000;
-$pfont: 'Oswald', sans-serif;
-$pfontsize: 20px;
+$marron: #271900;
+
+/* POLICES */
+$pfont: 'Raleway', sans-serif;
+
+/* TAILLES */
+$psize: 20px;
 
   .navbar {
     margin-bottom: 0;
@@ -134,3 +140,79 @@ $pfontsize: 20px;
      color: #f39c12;
  }
 
+.landingpage{
+  height: 50vh;
+  width:100%;
+  background:url(http://cenabiznesu.pl/images/fx/crop2,5366,3018,0,537/65636) fixed;
+  background-size:100%;
+  padding-top:0px;
+}
+.landingpage h1{
+padding-top:20vh;
+color:$beige;
+text-align:center;
+font-family: 'Oswald', sans-serif;
+font-size:80px;
+  text-shadow: 
+                  -1px 1px 0px $marron,
+                  -2px 2px 0px $marron,
+                  -3px 3px 0px $marron,
+                  -4px 4px 0px $marron,
+                  -5px 5px 0px $marron,
+                  -6px 6px 0px $marron,
+                  -7px 7px 0px $marron,
+                  -8px 8px 0px $marron;
+}
+.container1{
+  padding:20px;
+  height:50%;
+  background-image:url(http://www.lannathai.ca/wp-content/uploads/2014/12/bigstock-Blank-Chalkboard-Blackboard-T-50893607.jpg);
+  color:white;
+    p{ 
+    font-size:$psize;
+    font-family:$pfont;
+    }
+    h1, h2, h3{
+      font-weight:600;
+      padding-top:20px;
+      color:$beige;
+    }
+}
+h1{
+  margin:0 !important;
+}
+.container-fluid{
+  margin:0 !important;
+  padding:0 !important;
+  margin-bottom:-21px !important;
+}
+
+.navbar-brand{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  text-shadow: 
+                  -1px 1px 0px $marron,
+                  -2px 2px 0px $marron,
+                  -3px 3px 0px $marron,
+                  -4px 4px 0px $marron;
+  color:$beige;
+  padding-left:30px;
+}
+.menu{
+  height:300px;
+  background:url(http://image.noelshack.com/fichiers/2016/38/1474477568-pexels-photo-86584.jpeg) fixed;
+  background-size:100%;
+    p{ 
+    font-size:$psize;
+    font-family:$pfont;
+    }
+    h1{
+      font-weight:600;
+      padding-top:120px;
+      color:$beige;
+    }
+    h2 a{
+      text-decoration:none;
+      color:white;
+    }
+}

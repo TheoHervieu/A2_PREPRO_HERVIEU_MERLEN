@@ -1,0 +1,80 @@
+[33mcommit d327183ccd61736940e9a36478ef4a76fe160674[m
+Merge: 948c3bf 97da945
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 17:45:13 2016 +0200
+
+    Design page accueil CSS
+
+[33mcommit 97da9453e552b1b824445912ef4ddc17e31e28f1[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 14:45:55 2016 +0200
+
+    Reprise des fichiers
+
+[33mcommit 28fbad08f51e56ca1c17d299f3d4df73513a1bd1[m
+Merge: f8dfb62 81f289f
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 14:43:22 2016 +0200
+
+    Suppression de mes fichiers pour récupérer les tiens neufs
+
+[33mcommit f8dfb62dac0ba92c1f055ce1d2c4a1edc2576cbb[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 14:41:21 2016 +0200
+
+    Modified prepros.cfg
+
+[33mcommit 81f289fa355ada9b93d06cb6e18360d8d0693c2a[m
+Merge: 0ddb5bf 1a91665
+Author: AntoineMerlen <antoine.merlen@gmail.com>
+Date:   Wed Sep 21 14:39:01 2016 +0200
+
+    version 21 sept + ajout .gitignore 3
+
+[33mcommit 0ddb5bfc0f3cbb867a8612d5126a1cdb9aece305[m
+Author: AntoineMerlen <antoine.merlen@gmail.com>
+Date:   Wed Sep 21 14:30:27 2016 +0200
+
+    version 21 sept + ajout .gitignore 2
+
+[33mcommit 0d1849007ae43278730e7659a4928e1f53ffb859[m
+Author: AntoineMerlen <antoine.merlen@gmail.com>
+Date:   Wed Sep 21 14:24:49 2016 +0200
+
+    version 21 sept + ajout .gitignore
+
+[33mcommit e23d7b49af86441893dc06c513cb86d14c841efb[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 14:24:13 2016 +0200
+
+    Ajout du git ignore
+
+[33mcommit 6246bcad50993d445e4ca524b705ee3e783f1153[m
+Author: AntoineMerlen <antoine.merlen@gmail.com>
+Date:   Wed Sep 21 14:21:23 2016 +0200
+
+    version 21 sept
+
+[33mcommit 948c3bfbc65cb5b03b6c383d0010653347da7d56[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Wed Sep 21 14:09:18 2016 +0200
+
+    Remove CSS et SCSS
+
+[33mcommit 1a916658ee3600878f50485e6105f3e17853d782[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Mon Sep 19 19:22:14 2016 +0200
+
+    Ajout variables couleurs principales
+
+[33mcommit 46014f724cf548c930a8ecd97e0cb45b9b8fcf43[m
+Author: AntoineMerlen <antoine.merlen@gmail.com>
+Date:   Mon Sep 19 19:05:33 2016 +0200
+
+    création page info
+
+[33mcommit 3ce1819b70f7ebf209254626767bcaaa50f4d421[m
+Author: Théo Hervieu <theo.hervieu@devinci.fr>
+Date:   Mon Sep 19 17:32:02 2016 +0200
+
+    Remise à zéro du thème
