@@ -1,13 +1,130 @@
-$beige: #ecf4c2 !important;
+/* COULEURS */
+$beige: #f6f2c2 !important;
 $blanc: #ffffff !important;
 $grisfonce: #272727 !important;
 $noir: #000000;
+$marron: #271900;
+$gris: rgba(255,255,255,0.10) !important;
 
-  .navbar {
+/* POLICES */
+$raleway: 'Raleway', sans-serif;
+$oswald: 'Oswald', sans-serif;
+
+/* TAILLES */
+$psize: 20px;
+
+
+/* CONTENU */
+
+.landingpage{
+  height: 50vh;
+  width:100%;
+  background:url(http://cenabiznesu.pl/images/fx/crop2,5366,3018,0,537/65636) fixed;
+  background-size:100%;
+  padding-top:0px;
+
+    h1{
+      padding-top:20vh;
+      color:$beige;
+      text-align:center;
+      font-family: 'Oswald', sans-serif;
+      font-size:80px;
+      text-shadow:
+                    -1px 1px 0px $marron,
+                    -2px 2px 0px $marron,
+                    -3px 3px 0px $marron,
+                    -4px 4px 0px $marron,
+                    -5px 5px 0px $marron,
+                    -6px 6px 0px $marron,
+                    -7px 7px 0px $marron,
+                    -8px 8px 0px $marron;
+    }
+}
+
+.concept{
+  padding:20px;
+  height:380px;
+  background-image:url(http://www.lannathai.ca/wp-content/uploads/2014/12/bigstock-Blank-Chalkboard-Blackboard-T-50893607.jpg);
+    p{
+    font-size:$psize;
+    font-family:$raleway;
+    color:white;
+    }
+    h1{
+      font-weight:600;
+      padding-top:100px;
+      color:$beige;
+      font-family: $raleway;
+      text-transform:uppercase;
+    }
+    h1, h2, h3{
+      font-weight:600;
+      padding-top:20px;
+      color:$beige;
+    }
+}
+
+.navbar a{
+  color: $beige;
+}
+.navbar-brand{
+  font-family: $oswald;
+  font-size:35px;
+  text-shadow:
+                  -1px 1px 0px $marron,
+                  -2px 2px 0px $marron,
+                  -3px 3px 0px $marron,
+                  -4px 4px 0px $marron;
+  color:$beige;
+  padding-left:30px;
+}
+.menu{
+  height:300px;
+  background:url(http://image.noelshack.com/fichiers/2016/38/1474477568-pexels-photo-86584.jpeg) fixed;
+  background-size:100%;
+    p{
+    font-size:$psize;
+    font-family:$raleway;
+    }
+    h1{
+      font-weight:600;
+      padding-top:100px;
+      color:$beige;
+      font-family: $raleway;
+      text-transform:uppercase;
+    }
+    h2 a{
+      text-decoration:none;
+      color:white;
+    }
+}
+
+/* CORRECTIFS (marges,...) */
+h1{
+  margin:0 !important;
+}
+.container-fluid{
+  margin:0 !important;
+
+  margin-bottom:-21px !important;
+  padding-bottom: 21px !important;
+  padding-top: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* BASE BOOTSTRAP */
+
+.navbar {
     margin-bottom: 0;
     border-radius: 0;
   }
 
+  .list-group-item{
+    background-color:#2f2f2f !important;
+    color: white !important;
+    border: 0px !important;
+  }
 
   .row.content {
     height: 450px
@@ -19,15 +136,37 @@ $noir: #000000;
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+
+
+  }
+  .well-sm{
+    color: white !important;
+    height: 150px;
+    background: $gris;
+    border: 0px !important;
+  }
+
+  .well-lg{
+    background: rgba(0,0,0,0) !important;
+    border: 0px !important;
+    color: white !important;
+    button{
+      color: black !important;
+    }
   }
 
   .carousel-caption{
     text-shadow: 0;
-  }
 
+  }
+  .col-sm-8 h1{
+    color: white !important;
+  }
   body {
       position: relative;
       height: 100%;
+      background: #2f2f2f;
+
   }
   ul.nav-pills {
       top: 20px;
@@ -51,20 +190,21 @@ $noir: #000000;
 
 
   .sidenav {
-    padding-top: 20px;
-    background-color: #f1f1f1;
+
+    background-color: rgba(0,0,0,0) !important;
     height: 100%;
   }
 
 
   footer {
-    background-color: #555;
+    background-color: $grisfonce;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 60%;
+
 
 
   }
@@ -82,7 +222,6 @@ $noir: #000000;
 
 
 
-
   .footer-distributed{
   	background-color: #292c2f;
   	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -92,7 +231,8 @@ $noir: #000000;
   	font: bold 16px sans-serif;
 
   	padding: 55px 50px;
-  	margin-top: 80px;
+  	margin-top: 0px;
+
   }
 
   .footer-distributed .footer-left,
@@ -136,10 +276,15 @@ $noir: #000000;
   }
 
   .footer-distributed .footer-company-name{
-  	color:  #8f9296;
-  	font-size: 14px;
-  	font-weight: normal;
-  	margin: 0;
+    font-family: $oswald;
+    font-size: 20px;
+    text-shadow:
+                    -1px 1px 0px $marron,
+                    -2px 2px 0px $marron,
+                    -3px 3px 0px $marron,
+                    -4px 4px 0px $marron;
+    color:$beige;
+
   }
 
   /* Footer Center */
@@ -289,6 +434,8 @@ $noir: #000000;
       padding: 1em;
       border: 1px solid #CCC;
       border-radius: 1em;
+      background: $gris;
+      border: 0px !important;
   }
 
   form div + div {
@@ -343,6 +490,7 @@ $noir: #000000;
        que celui entre les étiquettes et les champs textuels */
     margin-left: .5em;
   }
+
   .social:hover {
      -webkit-transform: scale(1.1);
      -moz-transform: scale(1.1);
@@ -374,4 +522,5 @@ $noir: #000000;
  }
  #social-em:hover {
      color: #f39c12;
+
  }

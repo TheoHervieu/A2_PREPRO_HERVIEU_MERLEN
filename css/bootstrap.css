@@ -1222,8 +1222,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 h1 small,
 .h1 small,
@@ -1245,8 +1245,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 h4 small,
 .h4 small,
@@ -4817,7 +4817,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: #fff;
+
   border: 1px solid #ddd;
   border-radius: 15px;
 }
@@ -4944,7 +4944,6 @@ a.badge:focus {
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #337ab7;
-  background-color: #fff;
 }
 .list-group-item > .badge {
   float: right;
@@ -5250,7 +5249,7 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #fff;
+
   border: 1px solid #ddd;
 }
 .list-group-item:first-child {
@@ -5277,6 +5276,9 @@ button.list-group-item:focus {
   color: #555;
   text-decoration: none;
   background-color: #f5f5f5;
+
+
+
 }
 button.list-group-item {
   width: 100%;
