@@ -6,12 +6,111 @@ $noir: #000000;
 $marron: #271900;
 
 /* POLICES */
-$pfont: 'Raleway', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$oswald: 'Oswald', sans-serif;
 
 /* TAILLES */
 $psize: 20px;
 
-  .navbar {
+  
+/* CONTENU */
+
+.landingpage{
+  height: 50vh;
+  width:100%;
+  background:url(http://cenabiznesu.pl/images/fx/crop2,5366,3018,0,537/65636) fixed;
+  background-size:100%;
+  padding-top:0px;
+
+    h1{
+      padding-top:20vh;
+      color:$beige;
+      text-align:center;
+      font-family: 'Oswald', sans-serif;
+      font-size:80px;
+      text-shadow: 
+                    -1px 1px 0px $marron,
+                    -2px 2px 0px $marron,
+                    -3px 3px 0px $marron,
+                    -4px 4px 0px $marron,
+                    -5px 5px 0px $marron,
+                    -6px 6px 0px $marron,
+                    -7px 7px 0px $marron,
+                    -8px 8px 0px $marron;
+    }
+}
+
+.concept{
+  padding:20px;
+  height:380px;
+  background-image:url(http://www.lannathai.ca/wp-content/uploads/2014/12/bigstock-Blank-Chalkboard-Blackboard-T-50893607.jpg);
+    p{ 
+    font-size:$psize;
+    font-family:$raleway;
+    color:white;
+    }
+    h1{
+      font-weight:600;
+      padding-top:100px;
+      color:$beige;
+      font-family: $raleway;
+      text-transform:uppercase;
+    }
+    h1, h2, h3{
+      font-weight:600;
+      padding-top:20px;
+      color:$beige;
+    }
+}
+
+.navbar a{
+  color: $beige;
+}
+.navbar-brand{
+  font-family: $oswald;
+  font-size:35px;
+  text-shadow: 
+                  -1px 1px 0px $marron,
+                  -2px 2px 0px $marron,
+                  -3px 3px 0px $marron,
+                  -4px 4px 0px $marron;
+  color:$beige;
+  padding-left:30px;
+}
+.menu{
+  height:300px;
+  background:url(http://image.noelshack.com/fichiers/2016/38/1474477568-pexels-photo-86584.jpeg) fixed;
+  background-size:100%;
+    p{ 
+    font-size:$psize;
+    font-family:$raleway;
+    }
+    h1{
+      font-weight:600;
+      padding-top:100px;
+      color:$beige;
+      font-family: $raleway;
+      text-transform:uppercase;
+    }
+    h2 a{
+      text-decoration:none;
+      color:white;
+    }
+}
+
+/* CORRECTIFS (marges,...) */
+h1{
+  margin:0 !important;
+}
+.container-fluid{
+  margin:0 !important;
+  padding:0 !important;
+  margin-bottom:-21px !important;
+}
+  
+/* BASE BOOTSTRAP */
+
+.navbar {
     margin-bottom: 0;
     border-radius: 0;
   }
@@ -139,80 +238,3 @@ $psize: 20px;
  #social-em:hover {
      color: #f39c12;
  }
-
-.landingpage{
-  height: 50vh;
-  width:100%;
-  background:url(http://cenabiznesu.pl/images/fx/crop2,5366,3018,0,537/65636) fixed;
-  background-size:100%;
-  padding-top:0px;
-}
-.landingpage h1{
-padding-top:20vh;
-color:$beige;
-text-align:center;
-font-family: 'Oswald', sans-serif;
-font-size:80px;
-  text-shadow: 
-                  -1px 1px 0px $marron,
-                  -2px 2px 0px $marron,
-                  -3px 3px 0px $marron,
-                  -4px 4px 0px $marron,
-                  -5px 5px 0px $marron,
-                  -6px 6px 0px $marron,
-                  -7px 7px 0px $marron,
-                  -8px 8px 0px $marron;
-}
-.container1{
-  padding:20px;
-  height:50%;
-  background-image:url(http://www.lannathai.ca/wp-content/uploads/2014/12/bigstock-Blank-Chalkboard-Blackboard-T-50893607.jpg);
-  color:white;
-    p{ 
-    font-size:$psize;
-    font-family:$pfont;
-    }
-    h1, h2, h3{
-      font-weight:600;
-      padding-top:20px;
-      color:$beige;
-    }
-}
-h1{
-  margin:0 !important;
-}
-.container-fluid{
-  margin:0 !important;
-  padding:0 !important;
-  margin-bottom:-21px !important;
-}
-
-.navbar-brand{
-  font-family: 'Oswald', sans-serif;
-  font-size:35px;
-  text-shadow: 
-                  -1px 1px 0px $marron,
-                  -2px 2px 0px $marron,
-                  -3px 3px 0px $marron,
-                  -4px 4px 0px $marron;
-  color:$beige;
-  padding-left:30px;
-}
-.menu{
-  height:300px;
-  background:url(http://image.noelshack.com/fichiers/2016/38/1474477568-pexels-photo-86584.jpeg) fixed;
-  background-size:100%;
-    p{ 
-    font-size:$psize;
-    font-family:$pfont;
-    }
-    h1{
-      font-weight:600;
-      padding-top:120px;
-      color:$beige;
-    }
-    h2 a{
-      text-decoration:none;
-      color:white;
-    }
-}
